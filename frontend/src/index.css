@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --forest: #173d31;
+  --lime: #cce75d;
+  --ink: #1c2a21;
+  --muted: #768279;
+  --line: #e5eae2;
+  --display: poppins, 'Segoe UI', sans-serif;
+  --heading: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --body: 'DM Sans', 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: #f5f7f3;
+  font-family: var(--body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #24263d;
+  
+  background-size: 17px 17px;
+}
+
+button, input, textarea { font: inherit; }
+a, button { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid #303631; outline-offset: 2px; }
+#root { min-height: 100vh; }
+#gg{
+  color: #fffdfd;
+}
+#nn{
+  color: #fffdfd;
+
+}
+#test{
+  color: #fffdfd;
+}
